@@ -1,4 +1,6 @@
-const profileData = () => [
+import React from "react";
+
+const ProfileData = () => [
   {
     userName: "rea-doe-xs-1",
     fullName: "Rea Doe",
@@ -40,3 +42,4 @@ const profileData = () => [
     schoolRank: "4nd",
   },
 ];
+export default ProfileData();

@@ -12,14 +12,12 @@ import {
 } from "react-router-dom";
 import Leaderboard from "./pages/leaderboard/LeaderBoard";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
+import Header from "./containers/header/Header";
 
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/leaderboard">Leaderboard</Link>
-      </nav>
+      <Header />
       <Routes>
         <Route path="/" />
         <Route path="/leaderboard" element={<Leaderboard />} />
